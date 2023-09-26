@@ -325,7 +325,7 @@ export default function Index() {
                 <div className='flex items-center justify-between flex-wrap p-10 bg-coolGray-50 group-hover:bg-coolGray-100 rounded-md shadow-md transition duration-200'>
                   <div className='w-full md:w-1/2 mb-2 md:mb-0'>
                     <h3 className='text-lg md:text-xl text-coolGray-800 group-hover:text-coolGray-900 font-semibold'>
-                      Full puzzles
+                      Figma File
                     </h3>
                   </div>
                   <div className='w-full md:w-1/2 md:text-right'>
@@ -351,7 +351,7 @@ export default function Index() {
                 <div className='flex items-center justify-between flex-wrap p-10 bg-coolGray-50 group-hover:bg-coolGray-100 rounded-md shadow-md transition duration-200'>
                   <div className='w-full md:w-1/2 mb-2 md:mb-0'>
                     <h3 className='text-lg md:text-xl text-coolGray-800 group-hover:text-coolGray-900 font-semibold'>
-                      Base
+                      Podstawa (PDF)
                     </h3>
                   </div>
                   <div className='w-full md:w-1/2 md:text-right'>
@@ -373,11 +373,15 @@ export default function Index() {
                   </div>
                 </div>
               </a>
-              <a className='group block mb-6' href='#'>
+              <a
+                className='group block mb-6'
+                download={true}
+                href='/WIntelektualna.pdf'
+              >
                 <div className='flex items-center justify-between flex-wrap p-10 bg-coolGray-50 group-hover:bg-coolGray-100 rounded-md shadow-md transition duration-200'>
                   <div className='w-full md:w-1/2 mb-2 md:mb-0'>
                     <h3 className='text-lg md:text-xl text-coolGray-800 group-hover:text-coolGray-900 font-semibold'>
-                      Additional 1
+                      Własność intelektualna (PDF)
                     </h3>
                   </div>
                   <div className='w-full md:w-1/2 md:text-right'>
