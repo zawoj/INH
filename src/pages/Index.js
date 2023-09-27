@@ -124,7 +124,7 @@ export default function Index() {
                   <div className='relative max-w-max mx-auto'>
                     <img
                       className='absolute p-1 ml-11 top-1 left-0 z-10 h-52 object-cover'
-                      src='flex-ui-assets/elements/dashboard.png'
+                      src='/images/Screenshot-2023-09-25-173124.png'
                     />
                     <img
                       className='h-56 mx-auto object-cover'
